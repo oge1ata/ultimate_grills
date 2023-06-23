@@ -1,0 +1,14 @@
+.app__header{
+    background-color: black;
+    padding: 2rem;
+    /* color: aliceblue; */
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: #FF8507;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 100px;
+    font-size: 90px;
+}
