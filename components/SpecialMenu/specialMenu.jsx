@@ -29,7 +29,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">Rush hour</p>
         <div className="app__specialMenu_menu_items">
           {data.lovely.map((lovely, index) => (
             <MenuItem key={lovely.title + index} title={lovely.title} price={lovely.price} tags={lovely.tags} />

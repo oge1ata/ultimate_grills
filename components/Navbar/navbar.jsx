@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className={`app__navbar ${scrolled ? "scrolled" : ""} ${isSticky ? "isSticky" : ""}`}>
       <div className="app__navbar-logo">
-        <img src={images.ug2} alt="applogo" />
+        <img src={images.ug2} alt="applogo" className="imh"/>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -80,22 +80,22 @@ const Navbar = () => {
 
           <ul className="app__navbar-smallscreen-links">
             <li className="p__opensans">
-              <a href="#home" className="p__opensans-smallscreen">
+              <a href="#home" className="p__opensans-smallscreen" onClick={() => setToggleMenu(false)}>
                 Home
               </a>
             </li>
             <li className="p__opensans">
-              <a href="#about" className="p__opensans-smallscreen">
+              <a href="#about" className="p__opensans-smallscreen" onClick={() => setToggleMenu(false)}>
                 About
               </a>
             </li>
             <li className="p__opensans">
-              <a href="#menu" className="p__opensans-smallscreen">
+              <a href="#menu" className="p__opensans-smallscreen" onClick={() => setToggleMenu(false)}>
                 Menu
               </a>
             </li>
             <li className="p__opensans">
-              <a href="#contact" className="p__opensans-smallscreen">
+              <a href="#contact" className="p__opensans-smallscreen" onClick={() => setToggleMenu(false)}>
                 Contact us
               </a>
             </li>

@@ -1,6 +1,6 @@
 import pj1 from '../assets/pj1.jpeg';
 import ug1 from '../assets/UG1.png';
-import ug2 from '../assets/ultimateg.png';
+import ug2 from '../assets/ultimatehh.png';
 import spoon from '../assets/spoon.png';
 import mainpic2 from '../assets/mainpic2.png';
 import knives from '../assets/knifeRep.png';

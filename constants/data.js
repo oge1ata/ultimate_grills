@@ -21,14 +21,15 @@ const daily = [
     price: 'N 4000',
     tags: 'Peppered | Salty',
   },
+  
+];
+
+const lovely = [
   {
     title: 'Grilled Chicken with Roasted Yam or Plantain and Peppered Sauce',
     price: 'N 3000',
     tags: 'Peppered | Salty',
   },
-];
-
-const lovely = [
   {
     title: 'Grilled Pork ribs',
     price: 'N 5000',
