@@ -11,6 +11,7 @@ import slide3 from '../assets/slide3.png';
 import slide4 from '../assets/slide4.png';
 import slide5 from '../assets/slide5.png';
 import slide6 from '../assets/slide6.png';
+import slide7 from '../assets/goat.jpeg'
 import man from '../assets/heya.png';
 import enough from '../assets/cannot.png';
 
@@ -28,6 +29,7 @@ export default {
     slide4,
     slide5,
     slide6,
+    slide7,
     man,
     enough
 };

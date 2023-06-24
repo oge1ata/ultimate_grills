@@ -31,7 +31,6 @@
     padding-top: 0;
 }
 
-.s
 
 .app__footer-links {
     width: 100%;
@@ -52,8 +51,9 @@
 }
 
 .app__footer-links_logo img:first-child {
-    width: 210px;
-    margin-bottom: 0.75rem;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -78,8 +78,8 @@
 
 .app__footer-headtext {
     font-family: var(--font-base);
-    color: var(--color-white);
-    font-weight: 400;
+    color: #FF8507;
+    font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: capitalize;
     font-size: 32px;
@@ -88,7 +88,11 @@
 }
 
 .footer__copyright {
-    margin-top: 3rem;
+    margin-top: 1rem;
+}
+
+.section__padding__two {
+    padding: 1rem 6rem;
 }
 
 @media screen and (min-width: 2000px) {

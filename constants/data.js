@@ -1,82 +1,60 @@
 import images from './images';
 
-const wines = [
+const daily = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Grilled Pork Stick',
+    price: 'N 600',
+    tags: 'Peppered | Salty',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Roasted Yam or Plantain and Peppered Sauce',
+    price: 'N 700',
+    tags: 'Peppered | Salty',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Grilled Pork with Roasted Yam or Plantain and Peppered Sauce',
+    price: 'N 2000',
+    tags: 'Peppered | Salty',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Grilled Turkey with Roasted Yam or Plantain and Peppered Sauce',
+    price: 'N 4000',
+    tags: 'Peppered | Salty',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
-];
-
-const cocktails = [
-  {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
-  },
-  {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
-  },
-  {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Grilled Chicken with Roasted Yam or Plantain and Peppered Sauce',
+    price: 'N 3000',
+    tags: 'Peppered | Salty',
   },
 ];
 
-const awards = [
+const lovely = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Grilled Pork ribs',
+    price: 'N 5000',
+    tags: 'Peppered | Salty | 1kg',
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Fresh Pork',
+    price: 'N 4000',
+    tags: 'Fresh | 1kg',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Grilled Fish',
+    price: 'N 2500',
+    tags: 'Peppered | Salty ',
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Shawarma',
+    price: 'N 2000',
+    tags: 'Peppered | Salty | Normal',
+  },
+  {
+    title: 'Grilling of full cow, goat or pig',
+    price: 'Call us',
+    tags: 'Peppered | Salty | Normal',
   },
 ];
 
-export default { wines, cocktails, awards };
+
+export default { daily, lovely };

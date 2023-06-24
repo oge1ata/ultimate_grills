@@ -5,7 +5,7 @@ import images from "../../constants/images";
 
 const handleClick = () => {
   // Redirect to a new website
-  window.location.href = "#menu";
+  window.location.href = "#contact";
 };
 
 function AboutUs() {
@@ -15,7 +15,8 @@ function AboutUs() {
     images.slide3,
     images.slide4,
     images.slide5,
-    images.slide6
+    images.slide6,
+    images.slide7
   ];
 
   return (
@@ -27,7 +28,7 @@ function AboutUs() {
       
       
       <div className="app__aboutus-content ">     
-
+      <hr className='horizot'/>
         <div className="app__aboutus-content_about">
           <h1 className="headtext__cormorant">About Us</h1>
           <img src={images.spoon} alt="about_spoon" className="spoon__img" />
@@ -35,7 +36,7 @@ function AboutUs() {
             We are a group of tasty brands focused on selling healthy and spicy
             foods to the masses. Our meals range from roasted yam dipped in pork
             sauce to well-marinated fish dipped in pepper to perfectly grilled
-            shawarma.
+            shawarma to grilled goats and cows.
           </p>
           
         </div>
@@ -54,7 +55,7 @@ function AboutUs() {
             forward to 2023, almost ten years later, and we have more than just
             pork, but spicy fish, tasty shawarma and even filling small chops.
           </p>
-          <button type='button' className='custom__button' style={{marginTop: '2rem'}} onClick={handleClick}>Menu</button>
+          <button type='button' className='custom__button' style={{marginTop: '2rem'}} onClick={handleClick}>Talk to us</button>
 
         </div>
 
