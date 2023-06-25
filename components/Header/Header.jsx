@@ -17,7 +17,7 @@ function Header() {
         <h1 className='app__header-h1'>The Spiciest Grill in Town...</h1>
         <p className='p__opensans' style={ {margin: '0rem'}}>
           Join us everyday to experience the taste of new cuisines. 
-          From pork to small chops to roasted fish to shawarma.
+          From pork to small chops to roasted fish to shawarma and even goat grilling.
         </p>
         <button type='button' className='custom__button' style={{marginTop: '2rem'}} onClick={handleClick}>See our menu</button>
         </div>
