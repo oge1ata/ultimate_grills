@@ -10,7 +10,7 @@ const handleClick = () => {
 
 function Header() {
   return (
-    <div className='app__header app__wrapper section__padding' id='home' style={{}}>
+    <div className='app__header app__wrapper section__padding' id='home' style={{marginTop: '2rem'}}>
         
         <div className='app__wrapper_info'>
         <SubHeading title="Chase the new flavour"/>  
